@@ -1,0 +1,25 @@
+{
+  "name": "redm-lua-lint-action",
+  "version": "1.0.0",
+  "author": {
+    "name": "LiL-Loco",
+    "email": "h85029141@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "install": "tsc -b",
+    "build": "node ./generate-rc.js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.3.2",
+    "@types/node": "^15.9.0",
+    "@types/node-fetch": "^2.5.10",
+    "ansi-colors": "^4.1.1",
+    "node-fetch": "^2.6.1"
+  }
+}
